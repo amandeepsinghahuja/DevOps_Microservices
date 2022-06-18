@@ -40,4 +40,5 @@ jobs:
                 pwd
                 ls -l
                 source ./venv/bin/activate
+                cd project-ml-microservice-kubernetes
                 make lint

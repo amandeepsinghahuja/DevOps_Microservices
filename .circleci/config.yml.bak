@@ -39,5 +39,5 @@ jobs:
             command: |
                 pwd
                 ls -l
-                source ~/venv/bin/activate
+                source ./venv/bin/activate
                 make lint
