@@ -37,5 +37,7 @@ jobs:
       - run:
             name: run lint
             command: |
+                pwd
+                ls -l
                 source ./venv/bin/activate
                 make lint
