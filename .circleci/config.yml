@@ -21,7 +21,7 @@ jobs:
           name: install dependencies
           command: |
             pwd
-            ls -l
+            ls -l ~/repo/project-ml-microservice-kubernetes
             python3 -m venv ./venv
             source ./venv/bin/activate
             make install
